@@ -1,0 +1,4 @@
+# generate graphs from lighttpd RRD data
+MAILTO=root
+
+*/15 * * * * stats /usr/sbin/lighttpd-rrdgraph
