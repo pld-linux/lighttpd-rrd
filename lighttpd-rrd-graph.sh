@@ -5,6 +5,8 @@ OUTDIR=/var/lib/lighttpd/rrd
 INFILE=/var/lib/lighttpd/lighttpd.rrd
 OUTPRE=lighttpd-traffic
 
+exec >/dev/null
+
 DISP="DEF:bin=$INFILE:InOctets:AVERAGE \
       DEF:binmin=$INFILE:InOctets:MIN \
       DEF:binmax=$INFILE:InOctets:MAX \
