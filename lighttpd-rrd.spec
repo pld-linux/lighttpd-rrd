@@ -2,15 +2,17 @@ Summary:	Produce RRD graphs from lighttpd
 Summary(pl):	Tworzenie wykresów RRD z lighttpd
 Name:		lighttpd-rrd
 Version:	0.2
-Release:	0.8
+Release:	1
 License:	GPL
 Group:		Applications/WWW
 Source0:	%{name}.conf
 Source1:	%{name}-index.html
 Source2:	%{name}-graph.sh
 Source3:	%{name}.cron
+BuildRequires:	rpmbuild(macros) >= 1.268
 Requires:	crondaemon
 Requires:	lighttpd >= 1.4.13-5.5
+Requires:	lighttpd-mod_alias
 Requires:	lighttpd-mod_indexfile
 Requires:	lighttpd-mod_rrdtool
 BuildArch:	noarch
