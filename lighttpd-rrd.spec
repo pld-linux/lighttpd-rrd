@@ -1,7 +1,7 @@
 Summary:	Produce RRD graphs from lighttpd
 Summary(pl):	Tworzenie wykresów RRD z lighttpd
 Name:		lighttpd-rrd
-Version:	0.2
+Version:	0.3
 Release:	1
 License:	GPL
 Group:		Applications/WWW
