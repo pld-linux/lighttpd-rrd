@@ -1,5 +1,5 @@
 Summary:	Produce RRD graphs from lighttpd
-Summary(pl):	Tworzenie wykresÛw RRD z lighttpd
+Summary(pl.UTF-8):   Tworzenie wykres√≥w RRD z lighttpd
 Name:		lighttpd-rrd
 Version:	0.3
 Release:	1
@@ -25,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Produce graphs from RRD data produced by lighttpd mod_rrdtool module.
 
-%description -l pl
-Tworzenie wykresÛw z danych RRD tworzonych przez modu≥ mod_rrdtool
+%description -l pl.UTF-8
+Tworzenie wykres√≥w z danych RRD tworzonych przez modu≈Ç mod_rrdtool
 lighttpd.
 
 %prep
