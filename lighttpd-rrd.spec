@@ -30,7 +30,7 @@ Tworzenie wykresów z danych RRD tworzonych przez moduł mod_rrdtool
 lighttpd.
 
 %prep
-%setup -qc
+%setup -qcT
 
 %install
 rm -rf $RPM_BUILD_ROOT
